@@ -4,7 +4,7 @@ import json
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
 
-MONGO_URI = "mongodb+srv://admin:test1234@cluster0.umjyj.mongodb.net/quran_db?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 
 DB_NAME = 'quran_db'
 COLLECTION_NAME = 'verses'
